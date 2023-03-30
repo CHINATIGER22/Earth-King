@@ -10,7 +10,30 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
 
-  <body>
+  <body id="mypage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="/images/earthking.jpg.jpeg">Logo</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#pricing">PRICING</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
     <div class="jumbotron text-center">
       <h1>EARTHKING VENTURES</h1>         <p>Earthking is a Nigerian construction supply company with corporate headquarters in nyanya,  Abuja Nigeria.</p>
       <form class="form-inline">
@@ -23,12 +46,21 @@
       </form>
     </div>
 
+    <!-- ABOUT SECTION -->
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-8">
-          <h2>About Company Page</h2>
+          <h2>About Company </h2>
           <h4>As the name implies earth king is a multinational industrous company that is aimed at making the commercial    market a better place, Earthking is a Nigerian construction supply company with corporate headquarters in nyanya,  Abuja Nigeria.</h4>
-          <p>The company operates principally in Abuja, Keffi & Suleja.</p>
+          <p>The company operates principally in Abuja, Keffi & Suleja.</p> 
+          <div>
+            <img src="/images/ceo.jpg.jpeg" style="width:500px;height:500px;">
+            <div class="ceo header">
+              <h2>NWANKWO EMMANUEL,(C.E.O) </h2>
+            </div>
+            <p>Nwankwo Emmanuel hails from anambra state, nigeria. he is a graduate of accountancy from CHUKWUEMEKA ODUMEGWU OJUKWU UNIVERSITY and also a frontend developer with lots of skills.</p>
+            <p>He is business enclined and very zealous in his service to humanity, he graduated with a first class in accountancy and a distinction in web development. he is also known as CHINA TIGER (aka) AKUNATAKASI</p>
+          </div>
           <button class="btn btn-default btn-lg">Get in Touch</button>
         </div>
         <div class="col-sm-4">
@@ -37,6 +69,7 @@
       </div>
     </div>
     
+    <!-- OUR VALUES -->
     <div class="container-fluid bg-grey">
       <div class="row">
         <div class="col-sm-4">
@@ -55,6 +88,8 @@
       </div>
     </div>
 
+
+<!-- OUR SERVICES -->
     <div class="container-fluid text-center">
       <h2>SERVICES</h2>
       <h4>What we offer</h4>
@@ -62,18 +97,18 @@
       <div class="row">
         <div class="col-sm-4">
           <span class="glyphicon glyphicon-off logo-small"></span>
-          <h4>POWER</h4>
-          <p>Lorem ipsum dolor sit amet..</p>
+          <h4>SERVICES</h4>
+          <p>Render premuim customer services</p>
         </div>
         <div class="col-sm-4">
           <span class="glyphicon glyphicon-heart logo-small"></span>
-          <h4>LOVE</h4>
-          <p>Lorem ipsum dolor sit amet..</p>
+          <h4>VALUE</h4>
+          <p>we value our customers and have thier interest at heart</p>
         </div>
         <div class="col-sm-4">
           <span class="glyphicon glyphicon-lock logo-small"></span>
           <h4>JOB DONE</h4>
-          <p>Lorem ipsum dolor sit amet..</p>
+          <p>we get the job done easily, you don't have to worry about delays</p>
         </div>
         </div>
         <br><br>
@@ -81,21 +116,23 @@
         <div class="col-sm-4">
           <span class="glyphicon glyphicon-leaf logo-small"></span>
           <h4>GREEN</h4>
-          <p>Lorem ipsum dolor sit amet..</p>
+          <p>whith EARTHKING its always a green light</p>
         </div>
         <div class="col-sm-4">
           <span class="glyphicon glyphicon-certificate logo-small"></span>
           <h4>CERTIFIED</h4>
-          <p>Lorem ipsum dolor sit amet..</p>
+          <p>NCC certified</p>
         </div>
         <div class="col-sm-4">
           <span class="glyphicon glyphicon-wrench logo-small"></span>
           <h4>HARD WORK</h4>
-          <p>Lorem ipsum dolor sit amet..</p>
+          <p>we are devoted to giving you our best</p>
         </div>
       </div>
     </div>
 
+
+<!-- OUR PRODUCTS -->
     <div class="container-fluid text-center bg-grey">
       <h2>Products</h2>
       <h4>Some of What we have</h4>
@@ -124,6 +161,7 @@
       </div>
     </div>
 
+    <!-- WHAT OUR CUSTOMERS SAY -->
     <h2>What our customers say</h2>
 <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
   <!-- Indicators -->
@@ -157,6 +195,7 @@
   </a>
 </div>
 
+<!-- CONTACT -->
 <div class="container-fluid bg-grey">
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
@@ -185,40 +224,24 @@
   </div>
 </div>
 
-
-      <ul>The company supplies general building materials such as:
-       <li>wheel barrow</li>
-       <li>shovels</li>
-       <li>diggers</li>
-       <li>zinks</li>
-       <li>plumbing and tyling materials and general goods</li> 
-      </ul>
-    
-
-     
-         <h2>OUR GOALS AND MISSION</h2>
-       </div>
-        <P>
-          <li>Render premium customer service</li>
-          <li>Produce high-quality products </li>
-          <li>Preserve environmental practices </li>
-          <li>Give unlimited access to tools and resources </li>
-          <li>innovation and sustainability </li>
-          <li>Develop creative processes</li>
-        </P>
-      </div>
-
-     <div>
-        <div class="ceo">
-         <img class="image-responsive" src="f780fd9d2588432c8af6eca06f09e8c2.jpg" style="width:500px;height:500px;">
-         <div class="ceo header">
-           <h2>NWANKWO EMMANUEL,(C.E.O) </h2>
-         </div>
-         <p1>Nwankwo Emmanuel hails from anambra state, nigeria. he is a graduate of accountancy from CHUKWUEMEKA ODUMEGWU OJUKWU UNIVERSITY and also a frontend developer with lots of skills.</p2>
-         <p2>He is business enclined and very zealous in his service to humanity, he graduated with a first class in accountancy and a distinction in web development. he is also known as CHINA TIGER (aka) AKUNATAKASI</p2>
-       </div>
-     </div>
-
+<!-- MAP -->
+  <div class="container-fluid">
+    <div class="mapp">
+                    
+      <a href="https://goo.gl/maps/  Gm2VnnMbXYkcReAM6" target="_blank">
+        <div id="map-tile">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d63041.17342008881!2d7.4711039999999995!3d9.0570752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1679698508281!5m2!1sen!2sng" width="2000" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <span>map</span>
+        </div>
+      </a>
+    </div>
+ 
+    <footer class="container-fluid text-center">
+      <a href="#myPage" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <p>Bootstrap Theme Made By <a href="https://emmanuelnwankwoportfolio.netlify.app/" title="Visit my portfolio">https://emmanuelnwankwoportfolio.netlify.app/</a></p>&#169;Copyright Emmanuel N. Online service 2023| Developed by Nwankwo Emmanuel
+    </footer>
   </body>
   
 </html>
