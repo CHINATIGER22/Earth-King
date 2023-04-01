@@ -82,8 +82,14 @@
   line-height: 1.42857143 !important;
   letter-spacing: 4px;
   border-radius: 0;
+  padding: 10px;
 }
-.navbar li a, .navbar .navbar-brand {
+
+.navbar-brand{
+  width: 10rem;
+  height: 20rem;
+}
+.navbar li a, .navbar {
   color: black !important;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
