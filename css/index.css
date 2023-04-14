@@ -85,10 +85,6 @@
   padding: 10px;
 }
 
-.navbar-brand{
-  width: 10rem;
-  height: 20rem;
-}
 .navbar li a, .navbar {
   color: black !important;
 }
