@@ -40,7 +40,10 @@
   padding: 0 0 15px 0;
   border: none;
   border-radius: 0;
+  color: black;
 }
+
+.
 
 .thumbnail img {
   width: 100%;
@@ -95,6 +98,10 @@
 .navbar-default .navbar-toggle {
   border-color: transparent;
   color: white !important;
+}
+
+#ty {
+  border-color: black;
 }
 @media screen and (max-width: 768px) {
   .col-sm-4 {
