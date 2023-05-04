@@ -43,7 +43,9 @@
   color: black;
 }
 
-.
+.thumbnail p {
+/* border-color: gray; */
+}
 
 .thumbnail img {
   width: 100%;
